@@ -15,3 +15,29 @@ body {
   transition: color 150ms var(--timing-function),
     background-color 150ms var(--timing-function);
 }
+
+.list-main {
+  list-style-type: none;
+}
+
+.container {
+  display: flex;
+}
+
+.flag {
+  margin-left: 50px;
+  width: 250px;
+  height: 250px;
+}
+
+.item-main:not(:last-child) {
+  margin-bottom: 25px;
+}
+
+.list {
+  padding-top: 15px;
+}
+
+.list-item:not(:first-child) {
+  margin-top: 10px;
+}
